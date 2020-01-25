@@ -10,7 +10,7 @@ export default (email, password) => dispatch => {
 
   return app({
     method: 'POST',
-    url: 'http://localhost:3001/auth/login',
+    url: '/auth/login',
     data: { email, password },
   })
     .then(res => dispatch(handleResponse(res)));

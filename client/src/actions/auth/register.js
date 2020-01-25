@@ -29,7 +29,7 @@ export default (email, password, confirmPassword) => dispatch => {
 
   return axios({
     method: 'POST',
-    url: 'http://localhost:3001/auth/register',
+    url: '/auth/register',
     data: { email, password },
   })
     .then(res => dispatch(handleResponse(res)));
