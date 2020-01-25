@@ -6,29 +6,8 @@ const path = require('path');
 
 const app = express();
 const API_PORT = process.env.PORT;
-const MONGO_URI = 'mongodb://localhost:27017/taskdiary';
-
-/*
-const Color = require('./models/Color');
-Color.deleteMany({}, (err, docs) => {
-  if (err) console.log(err);
-  else console.log(docs);
-});
-*/
-
-/*
-const Color = require('./models/Color');
-Color.remove({});
-
-Color.create({ hex: '#d32f2f' });
-Color.create({ hex: '#c2185b' });
-Color.create({ hex: '#7b1fa2' });
-Color.create({ hex: '#1976d2' });
-Color.create({ hex: '#512da8' });
-Color.create({ hex: '#00897b' });
-Color.create({ hex: '#388e3c' });
-Color.create({ hex: '#f57c00' });
-*/
+const MONGO_URI = process.env.MONGO_URI;
+const setColors = require('./setColors');
 
 /*if (process.env.NODE_ENV === 'development') {
   app.use(cors());
@@ -54,7 +33,10 @@ mongoose.connect( MONGO_URI, {
   useCreateIndex: true,
   useUnifiedTopology: true
 })
-  .then(() => console.log('Connected to the MongoDB.'))
+  .then(() => {
+    console.log('Connected to the MongoDB.');
+    setColors();
+  })
   .catch(err => console.log(err));
 
 // Serve static assets if in production

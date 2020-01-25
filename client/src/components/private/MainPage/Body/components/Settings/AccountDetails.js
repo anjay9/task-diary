@@ -9,6 +9,7 @@ const useStyles = makeStyles(theme => ({
   },
   link: {
     width: '100%',
+    textAlign: 'center',
     paddingTop: theme.margin.smItem,
     paddingBottom: theme.margin.smItem,
   },
@@ -26,18 +27,5 @@ function AccountDetails(props) {
     </div>
   );
 }
-
-/*
-<div className={ classes.link }>
-  <Link href='#' variant='body1' className={ classes.lin }>
-    Change email
-  </Link>
-</div>
-<div className={ classes.link }>
-  <Link href='#' variant='body1'>
-    Change password
-  </Link>
-</div>
-*/
 
 export default AccountDetails;

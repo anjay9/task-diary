@@ -1,7 +1,6 @@
 import React from 'react';
 import { Provider as StoreProvider } from 'react-redux';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import { deepPurple, red, grey } from '@material-ui/core/colors';
 import { MuiPickersUtilsProvider } from '@material-ui/pickers';
 import DateFnsUtils from '@date-io/date-fns';
 import { CssBaseline } from '@material-ui/core';
@@ -28,22 +27,23 @@ const theme = createMuiTheme({
   loadingHeight: 6,
   palette: {
     primary: {
-      main: deepPurple['A700'],
+      main: '#0748db',
+      //main: deepPurple['A700'],
       contrastText: 'rgb(255,255,255)',
     },
     error: {
-      main: red[700],
-      background: red[50],
-    },
-    positive: {
-      main: deepPurple['A700'],
-      background: deepPurple[50],
+      main: '#e90e0a',
+      background: '#ffeeee',
+      //main: red[700],
+      //background: red[50],
     },
     label: {
-      main: grey[700],
+      main: '#616161',
+      //main: grey[700],
     },
     outline: {
-      main: grey[500],
+      main: '#9e9e9e',
+      //main: grey[500],
     },
   },
   breakpoints: {
