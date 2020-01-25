@@ -7,7 +7,7 @@ function setColors() {
     if (colors || colors.length === 0) {
       const hexes = [
         // orange
-        '#da7400', ,'#8a5707',
+        '#da7400', '#8a5707',
         // red
         '#e50505', '#ae0000',
         // pink/purple
