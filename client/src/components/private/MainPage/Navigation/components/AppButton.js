@@ -7,7 +7,6 @@ const useStyles = makeStyles(theme => ({
   logo: {
     width: 48,
     height: 48,
-    filter: 'brightness(0) invert(1)',
   },
 }));
 

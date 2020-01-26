@@ -1,147 +1,135 @@
 <svg
-   xmlnsDc="http://purl.org/dc/elements/1.1/"
-   xmlnsCc="http://creativecommons.org/ns#"
-   xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlnsSvg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   width="12.7mm"
-   height="12.7mm"
-   viewBox="0 0 12.7 12.700001"
+   id="svg3177"
    version="1.1"
-   id="svg3177">
+   viewBox="0 0 12.7 12.700001"
+   height="12.7mm"
+   width="12.7mm"
+   xmlnsSvg="http://www.w3.org/2000/svg"
+   xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlnsCc="http://creativecommons.org/ns#"
+   xmlnsDc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3171">
     <filter
-       style="color-interpolation-filters:sRGB"
-       id="filter7886">
+       id="filter7886"
+       style="color-interpolation-filters:sRGB">
       <feFlood
-         floodOpacity="1"
-         floodColor="rgb(29,115,79)"
+         id="feFlood7876"
          result="flood"
-         id="feFlood7876" />
+         floodColor="rgb(29,115,79)"
+         floodOpacity="1" />
       <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
+         id="feComposite7878"
          result="composite1"
-         id="feComposite7878" />
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
       <feGaussianBlur
-         in="composite1"
-         stdDeviation="0.1"
+         id="feGaussianBlur7880"
          result="blur"
-         id="feGaussianBlur7880" />
+         stdDeviation="0.1"
+         in="composite1" />
       <feOffset
-         dx="-2.77556e-17"
-         dy="0"
+         id="feOffset7882"
          result="offset"
-         id="feOffset7882" />
+         dy="0"
+         dx="-2.77556e-17" />
       <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
+         id="feComposite7884"
          result="composite2"
-         id="feComposite7884" />
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
-       id="filter7898">
+       id="filter7898"
+       style="color-interpolation-filters:sRGB">
       <feFlood
-         floodOpacity="1"
-         floodColor="rgb(29,115,79)"
+         id="feFlood7888"
          result="flood"
-         id="feFlood7888" />
+         floodColor="rgb(29,115,79)"
+         floodOpacity="1" />
       <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
+         id="feComposite7890"
          result="composite1"
-         id="feComposite7890" />
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
       <feGaussianBlur
-         in="composite1"
-         stdDeviation="0.1"
+         id="feGaussianBlur7892"
          result="blur"
-         id="feGaussianBlur7892" />
+         stdDeviation="0.1"
+         in="composite1" />
       <feOffset
-         dx="-2.77556e-17"
-         dy="0"
+         id="feOffset7894"
          result="offset"
-         id="feOffset7894" />
+         dy="0"
+         dx="-2.77556e-17" />
       <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
+         id="feComposite7896"
          result="composite2"
-         id="feComposite7896" />
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
-       id="filter7910">
+       id="filter7910"
+       style="color-interpolation-filters:sRGB">
       <feFlood
-         floodOpacity="1"
-         floodColor="rgb(29,115,79)"
+         id="feFlood7900"
          result="flood"
-         id="feFlood7900" />
+         floodColor="rgb(29,115,79)"
+         floodOpacity="1" />
       <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
+         id="feComposite7902"
          result="composite1"
-         id="feComposite7902" />
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
       <feGaussianBlur
-         in="composite1"
-         stdDeviation="0.1"
+         id="feGaussianBlur7904"
          result="blur"
-         id="feGaussianBlur7904" />
+         stdDeviation="0.1"
+         in="composite1" />
       <feOffset
-         dx="-2.77556e-17"
-         dy="0"
+         id="feOffset7906"
          result="offset"
-         id="feOffset7906" />
+         dy="0"
+         dx="-2.77556e-17" />
       <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
+         id="feComposite7908"
          result="composite2"
-         id="feComposite7908" />
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
     </filter>
     <clipPath
-       id="clipPath3049"
-       clipPathUnits="userSpaceOnUse">
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3049">
       <circle
-         r="7.9375"
-         cy="65.759171"
-         cx="56.065796"
+         style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          id="circle3051"
-         style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+         cx="56.065796"
+         cy="65.759171"
+         r="7.9375" />
     </clipPath>
   </defs>
-  <metadata
-     id="metadata3174">
-    <rdfRDF>
-      <ccWork
-         rdfAbout="">
-        <dcFormat>image/svg+xml</dcFormat>
-        <dcType
-           rdfResource="http://purl.org/dc/dcmitype/StillImage" />
-        <dcTitle></dcTitle>
-      </ccWork>
-    </rdfRDF>
-  </metadata>
   <g
-     id="layer1"
-     transform="translate(-24.388145,-41.205384)">
+     transform="translate(-24.388145,-41.205384)"
+     id="layer1">
     <g
-       ariaLabel="TD"
-       transform="matrix(0.26458334,0,0,0.26458334,25.626995,36.674269)"
+       id="flowRoot907"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:'Open Sans ExtraBold';-inkscape-font-specification:'Open Sans ExtraBold, ';letter-spacing:1px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       id="flowRoot907">
+       transform="matrix(0.26458334,0,0,0.26458334,25.626995,36.674269)"
+       ariaLabel="TD">
       <g
-         id="g1265"
-         transform="matrix(1.0370671,0,0,1.0370671,-2.7717742,-1.8585451)" />
+         transform="matrix(1.0370671,0,0,1.0370671,-2.7717742,-1.8585451)"
+         id="g1265" />
     </g>
     <path
-       id="path3828"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        d="M 29.879498,45.781436 H 28.11629 26.160027 24.6457 c -0.169301,0.576162 -0.256017,1.173428 -0.257555,1.773948 0,3.507009 2.842992,6.350001 6.35,6.35 3.507009,1e-6 6.350001,-2.842991 6.35,-6.35 1e-6,-3.507008 -2.842991,-6.35 -6.35,-6.35 -2.26483,0.0024 -4.356923,1.210971 -5.490518,3.171692 h 4.631862 2.199763 c 1.020226,0 1.807404,0.260881 2.360993,0.782589 0.556487,0.521706 0.834678,1.2755 0.834678,2.260947 0,1.060804 -0.293029,1.878065 -0.8785,2.451943 -0.582572,0.573878 -1.402719,0.860723 -2.460625,0.860723 -0.878187,0 -1.640811,0 -2.425898,0 -1.057906,0 -1.878466,-0.286845 -2.461039,-0.860723 -0.585471,-0.573878 -0.878086,-1.391139 -0.878086,-2.451943 0,-0.07954 0.0017,-0.157476 0.0054,-0.233991 l 1.788004,-8e-4 c -0.0073,0.09389 -0.01075,0.192207 -0.01075,0.295589 0,0.62315 0.121579,1.086801 0.365042,1.39113 0.243463,0.30143 0.625923,0.452949 1.14763,0.452685 l 0.412172,-4.23e-4 m 1.718551,-3.560705 v 3.560714 h 0.382405 c 0.521707,0 0.904581,-0.150842 1.148044,-0.452273 0.243463,-0.304329 0.365042,-0.767979 0.365042,-1.391129 0,-0.582572 -0.115809,-1.014489 -0.347679,-1.295632 -0.228971,-0.281142 -0.578461,-0.42168 -1.047998,-0.42168 z"
-       style="opacity:1;fill:#0057c7;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+       id="path3828" />
   </g>
 </svg>
