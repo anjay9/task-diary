@@ -4,7 +4,8 @@ function setColors() {
   Color.find({})
   .exec((err, colors) => {
     if (err) console.log(err);
-    if (colors || colors.length === 0) {
+    console.log(colors);
+    if (colors && colors.length === 0) {
       const hexes = [
         // orange
         '#da7400', '#8a5707',
