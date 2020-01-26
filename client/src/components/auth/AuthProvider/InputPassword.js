@@ -65,7 +65,7 @@ function InputPassword(props) {
           (adornment)
             ? (
               <InputAdornment position='end'>
-                <Tooltip title={
+                <Tooltip enterTouchDelay={ 0 } title={
                   <Fragment>
                     <div>Must contains 8-30 characters</div>
                     <div>Must contains 1 digit</div>

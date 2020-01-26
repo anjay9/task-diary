@@ -41,7 +41,7 @@ function NameField(props) {
       InputProps={{
         endAdornment: (
           <InputAdornment position='end'>
-            <Tooltip title={
+            <Tooltip enterTouchDelay={ 0 } title={
               <Fragment>
                 <div>Must contains 3-10 characters</div>
                 <div>Can contain uppercases, lowercases and digits</div>
