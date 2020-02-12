@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Button } from '@material-ui/core';
 import { connect } from 'react-redux';
@@ -33,6 +33,12 @@ const useStyles = makeStyles(theme => ({
     fontWeight: 400,
     color: props.colorHex,
   }),
+  name: {
+    width: 'calc(100% - 110px)',
+    overflow: 'hidden',
+    textAlign: 'left',
+    whiteSpace: 'nowrap',
+  },
 }));
 
 function Task(props) {
@@ -55,10 +61,10 @@ function Task(props) {
           <div>{ endTime }</div>
         </div>
         <div className={ classes.secondLine }>
-          <div>
+          <div className={ classes.name }>
             { name }
           </div>
-          <div>
+          <div className={ classes.time }>
             { (hours > 0) ? `${ hours } h` : null } {(minutes > 0) ? `${ minutes } min` : null }
           </div>
         </div>

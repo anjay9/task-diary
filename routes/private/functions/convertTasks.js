@@ -19,8 +19,13 @@ function convertTasks(tasks) {
     const endTime = formatAMPM(end);
 
     const millisecondsDiff = Math.abs( start - end );
-    const minutes = Math.floor((millisecondsDiff / (1000 * 60)) % 60);
-    const hours = Math.floor((millisecondsDiff / (1000 * 60 * 60)) % 24);
+    let minutes = Math.floor((millisecondsDiff / (1000 * 60)) % 60);
+    let hours = Math.floor((millisecondsDiff / (1000 * 60 * 60)) % 24);
+
+    if (millisecondsDiff > 79200000) {
+      minutes = 0;
+      hours = 0;
+    }
 
     return {
       taskId: task._id,

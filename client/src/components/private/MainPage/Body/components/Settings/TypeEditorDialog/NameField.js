@@ -43,7 +43,7 @@ function NameField(props) {
           <InputAdornment position='end'>
             <Tooltip enterTouchDelay={ 0 } title={
               <Fragment>
-                <div>Must contains 3-10 characters</div>
+                <div>Must contains 3-25 characters</div>
                 <div>Can contain uppercases, lowercases and digits</div>
                 <div>Single whitespaces can appear between other characters</div>
               </Fragment>
